@@ -1,7 +1,7 @@
 # random-bridge
 
 
-random-bridge is an external adapter which brides [Chainlink VRF](https://blog.chain.link/chainlink-vrf-now-live-on-ethereum-mainnet/) into Tezos Smart Contracts.
+random-bridge is an external adapter which brides [Chainlink VRF](https://blog.chain.link/chainlink-vrf-now-live-on-ethereum-mainnet/) into Tezos Smart Contracts. v0.1.0 distribute randomness in an input flux. other fluxes are being designed.
 
 it was built using serverless framework, client libraries such as [web3.js](https://web3js.readthedocs.io/en/v1.3.0/) and [conseil.js](https://cryptonomic.github.io/ConseilJS/#/), cloud providers as [infura](https://infura.io/docs) and [nautilus cloud](https://nautilus.cloud/).
 
