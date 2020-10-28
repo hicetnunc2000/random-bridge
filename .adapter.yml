@@ -1,9 +1,9 @@
-name: FIL-WEI price
-description: cryptocompare FIL WEI price
-node_identifier: wuwei
+name: random-bridge-vrf
+description: syncs data from chainlink VRF into Tezos Blockchain
+node_identifier: random-bridge
 platforms:
   - AWS Lambda
 data_sources:
   - name: hicetnunc2000
-    url: https://58ln53fooe.execute-api.us-east-1.amazonaws.com/dev/wuwei_fil_wei
+    url: https://vqnd6l1nj4.execute-api.us-east-1.amazonaws.com/dev/random_bridge_vrf
 parameters:
